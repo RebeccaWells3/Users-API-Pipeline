@@ -3,7 +3,6 @@ import sqlite3
 connection = sqlite3.connect('user_db')
 cursor = connection.cursor()
 
-#table columns = id, name, username, email, city, company_name
 
 #create user table
 cursor.execute('''
