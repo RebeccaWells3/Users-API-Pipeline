@@ -1,5 +1,5 @@
 import requests
-#10 rows
+
 url = "https://jsonplaceholder.typicode.com/users"
 
 def get_api_data(url):
